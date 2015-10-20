@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332DEB7D1BD673E800F25B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 332DEB7C1BD673E800F25B0F /* main.m */; };
+		332DEB881BD673E800F25B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332DEB871BD673E800F25B0F /* Assets.xcassets */; };
+		332DEB8B1BD673E800F25B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332DEB891BD673E800F25B0F /* LaunchScreen.storyboard */; };
+		332DEB961BD673E800F25B0F /* YueTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332DEB951BD673E800F25B0F /* YueTwoTests.m */; };
+		33D0F7851BD6825800BD1746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0F7841BD6825800BD1746 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		732A20FCB8F4A31EBB9DCBC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF05601B773D1B9C8BC129 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		332DEB921BD673E800F25B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332DEB701BD673E800F25B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332DEB771BD673E800F25B0F;
+			remoteInfo = YueTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		332DEB781BD673E800F25B0F /* YueTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332DEB7C1BD673E800F25B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		332DEB871BD673E800F25B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		332DEB8A1BD673E800F25B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		332DEB8C1BD673E800F25B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332DEB911BD673E800F25B0F /* YueTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YueTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		332DEB951BD673E800F25B0F /* YueTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YueTwoTests.m; sourceTree = "<group>"; };
+		332DEB971BD673E800F25B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337A9F66B3B78745843992D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		33D0F7831BD6825800BD1746 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33D0F7841BD6825800BD1746 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33D0F7871BD6828700BD1746 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		33D0F7881BD682AF00BD1746 /* yuetwo_prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yuetwo_prefix.pch; sourceTree = "<group>"; };
+		647E9E31D83CAF16C2F43692 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C4DF05601B773D1B9C8BC129 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		332DEB751BD673E800F25B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A20FCB8F4A31EBB9DCBC7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332DEB8E1BD673E800F25B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD3BBD69898898B7E40A119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337A9F66B3B78745843992D8 /* Pods.debug.xcconfig */,
+				647E9E31D83CAF16C2F43692 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		332DEB6F1BD673E800F25B0F = {
+			isa = PBXGroup;
+			children = (
+				332DEB7A1BD673E800F25B0F /* YueTwo */,
+				332DEB941BD673E800F25B0F /* YueTwoTests */,
+				332DEB791BD673E800F25B0F /* Products */,
+				2DD3BBD69898898B7E40A119 /* Pods */,
+				846896DF6A871D5B7A9C6E71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		332DEB791BD673E800F25B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332DEB781BD673E800F25B0F /* YueTwo.app */,
+				332DEB911BD673E800F25B0F /* YueTwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		332DEB7A1BD673E800F25B0F /* YueTwo */ = {
+			isa = PBXGroup;
+			children = (
+				33D0F77B1BD6821A00BD1746 /* CodeSource */,
+				33D0F7821BD6821A00BD1746 /* ResourceFile */,
+				332DEBA01BD674C600F25B0F /* Resources */,
+				332DEB7B1BD673E800F25B0F /* Supporting Files */,
+			);
+			path = YueTwo;
+			sourceTree = "<group>";
+		};
+		332DEB7B1BD673E800F25B0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				332DEB7C1BD673E800F25B0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		332DEB941BD673E800F25B0F /* YueTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				332DEB951BD673E800F25B0F /* YueTwoTests.m */,
+				332DEB971BD673E800F25B0F /* Info.plist */,
+			);
+			path = YueTwoTests;
+			sourceTree = "<group>";
+		};
+		332DEBA01BD674C600F25B0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				332DEB871BD673E800F25B0F /* Assets.xcassets */,
+				332DEB891BD673E800F25B0F /* LaunchScreen.storyboard */,
+				332DEB8C1BD673E800F25B0F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		33D0F77B1BD6821A00BD1746 /* CodeSource */ = {
+			isa = PBXGroup;
+			children = (
+				33D0F7861BD6827400BD1746 /* Helper */,
+				33D0F77C1BD6821A00BD1746 /* AppEntry */,
+				33D0F77D1BD6821A00BD1746 /* Core */,
+				33D0F77E1BD6821A00BD1746 /* Dependency */,
+				33D0F77F1BD6821A00BD1746 /* General */,
+				33D0F7801BD6821A00BD1746 /* Model */,
+				33D0F7811BD6821A00BD1746 /* Sections */,
+			);
+			path = CodeSource;
+			sourceTree = "<group>";
+		};
+		33D0F77C1BD6821A00BD1746 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				33D0F7831BD6825800BD1746 /* AppDelegate.h */,
+				33D0F7841BD6825800BD1746 /* AppDelegate.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		33D0F77D1BD6821A00BD1746 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		33D0F77E1BD6821A00BD1746 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		33D0F77F1BD6821A00BD1746 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		33D0F7801BD6821A00BD1746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33D0F7811BD6821A00BD1746 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		33D0F7821BD6821A00BD1746 /* ResourceFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResourceFile;
+			sourceTree = "<group>";
+		};
+		33D0F7861BD6827400BD1746 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				33D0F7871BD6828700BD1746 /* AppConstant.h */,
+				33D0F7881BD682AF00BD1746 /* yuetwo_prefix.pch */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		846896DF6A871D5B7A9C6E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4DF05601B773D1B9C8BC129 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332DEB771BD673E800F25B0F /* YueTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332DEB9A1BD673E800F25B0F /* Build configuration list for PBXNativeTarget "YueTwo" */;
+			buildPhases = (
+				9F96419877E147EAB8F808E8 /* Check Pods Manifest.lock */,
+				332DEB741BD673E800F25B0F /* Sources */,
+				332DEB751BD673E800F25B0F /* Frameworks */,
+				332DEB761BD673E800F25B0F /* Resources */,
+				A36A4E9CFF91E8E52AE75A9E /* Embed Pods Frameworks */,
+				7020755B44D55855E1D4979A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YueTwo;
+			productName = YueTwo;
+			productReference = 332DEB781BD673E800F25B0F /* YueTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		332DEB901BD673E800F25B0F /* YueTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332DEB9D1BD673E800F25B0F /* Build configuration list for PBXNativeTarget "YueTwoTests" */;
+			buildPhases = (
+				332DEB8D1BD673E800F25B0F /* Sources */,
+				332DEB8E1BD673E800F25B0F /* Frameworks */,
+				332DEB8F1BD673E800F25B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332DEB931BD673E800F25B0F /* PBXTargetDependency */,
+			);
+			name = YueTwoTests;
+			productName = YueTwoTests;
+			productReference = 332DEB911BD673E800F25B0F /* YueTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		332DEB701BD673E800F25B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kimoworks;
+				TargetAttributes = {
+					332DEB771BD673E800F25B0F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					332DEB901BD673E800F25B0F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 332DEB771BD673E800F25B0F;
+					};
+				};
+			};
+			buildConfigurationList = 332DEB731BD673E800F25B0F /* Build configuration list for PBXProject "YueTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 332DEB6F1BD673E800F25B0F;
+			productRefGroup = 332DEB791BD673E800F25B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				332DEB771BD673E800F25B0F /* YueTwo */,
+				332DEB901BD673E800F25B0F /* YueTwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332DEB761BD673E800F25B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332DEB8B1BD673E800F25B0F /* LaunchScreen.storyboard in Resources */,
+				332DEB881BD673E800F25B0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332DEB8F1BD673E800F25B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7020755B44D55855E1D4979A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F96419877E147EAB8F808E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A36A4E9CFF91E8E52AE75A9E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		332DEB741BD673E800F25B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D0F7851BD6825800BD1746 /* AppDelegate.m in Sources */,
+				332DEB7D1BD673E800F25B0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332DEB8D1BD673E800F25B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332DEB961BD673E800F25B0F /* YueTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332DEB931BD673E800F25B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332DEB771BD673E800F25B0F /* YueTwo */;
+			targetProxy = 332DEB921BD673E800F25B0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		332DEB891BD673E800F25B0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				332DEB8A1BD673E800F25B0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		332DEB981BD673E800F25B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		332DEB991BD673E800F25B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		332DEB9B1BD673E800F25B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337A9F66B3B78745843992D8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YueTwo/CodeSource/Helper/yuetwo_prefix.pch";
+				INFOPLIST_FILE = YueTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.yuetwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		332DEB9C1BD673E800F25B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647E9E31D83CAF16C2F43692 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YueTwo/CodeSource/Helper/yuetwo_prefix.pch";
+				INFOPLIST_FILE = YueTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.yuetwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		332DEB9E1BD673E800F25B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YueTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.yuetwo.YueTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YueTwo.app/YueTwo";
+			};
+			name = Debug;
+		};
+		332DEB9F1BD673E800F25B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YueTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.yuetwo.YueTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YueTwo.app/YueTwo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		332DEB731BD673E800F25B0F /* Build configuration list for PBXProject "YueTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332DEB981BD673E800F25B0F /* Debug */,
+				332DEB991BD673E800F25B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332DEB9A1BD673E800F25B0F /* Build configuration list for PBXNativeTarget "YueTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332DEB9B1BD673E800F25B0F /* Debug */,
+				332DEB9C1BD673E800F25B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332DEB9D1BD673E800F25B0F /* Build configuration list for PBXNativeTarget "YueTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332DEB9E1BD673E800F25B0F /* Debug */,
+				332DEB9F1BD673E800F25B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 332DEB701BD673E800F25B0F /* Project object */;
+}

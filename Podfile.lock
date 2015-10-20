@@ -1,0 +1,19 @@
+PODS:
+  - AMap2DMap (3.1.0)
+  - AMapSearch (3.0.0)
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - AMap2DMap
+  - AMapSearch
+  - Masonry (~> 0.6.1)
+  - MBProgressHUD (~> 0.9)
+
+SPEC CHECKSUMS:
+  AMap2DMap: a6741139dd16d237713c4fd6cae9a0399ca1fe25
+  AMapSearch: fd1ed96353f8a0f5c2e2463dac6a145bb3e6970f
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+
+COCOAPODS: 0.39.0
