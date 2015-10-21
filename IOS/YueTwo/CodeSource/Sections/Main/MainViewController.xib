@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1x-E7-DCq" userLabel="View-red">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.21960784310000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="ee2-H2-yN2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mV-MR-3V5" userLabel="View-blue">
+                    <rect key="frame" x="0.0" y="512" width="320" height="56"/>
+                    <color key="backgroundColor" red="0.18823529410000001" green="0.58823529409999997" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="6O5-mC-Re6"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iC-Y7-Jb1" userLabel="View-green">
+                    <rect key="frame" x="0.0" y="64" width="320" height="448"/>
+                    <color key="backgroundColor" red="0.0" green="0.71863594890000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8iC-Y7-Jb1" firstAttribute="top" secondItem="p1x-E7-DCq" secondAttribute="bottom" id="1dl-6d-kU5"/>
+                <constraint firstItem="8iC-Y7-Jb1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8Qp-w4-I6c"/>
+                <constraint firstItem="p1x-E7-DCq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="91b-3A-khd"/>
+                <constraint firstAttribute="trailing" secondItem="2mV-MR-3V5" secondAttribute="trailing" id="AkB-lh-BfA"/>
+                <constraint firstAttribute="trailing" secondItem="p1x-E7-DCq" secondAttribute="trailing" id="MRd-YA-GEX"/>
+                <constraint firstAttribute="bottom" secondItem="2mV-MR-3V5" secondAttribute="bottom" id="USl-tm-c5P"/>
+                <constraint firstItem="2mV-MR-3V5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aIB-rd-Fk9"/>
+                <constraint firstItem="p1x-E7-DCq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eta-3b-bhI"/>
+                <constraint firstAttribute="trailing" secondItem="8iC-Y7-Jb1" secondAttribute="trailing" id="o07-md-kLG"/>
+                <constraint firstItem="2mV-MR-3V5" firstAttribute="top" secondItem="8iC-Y7-Jb1" secondAttribute="bottom" id="qp2-9A-TpZ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="323" y="350"/>
+        </view>
+    </objects>
+</document>

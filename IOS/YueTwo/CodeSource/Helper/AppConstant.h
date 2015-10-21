@@ -10,5 +10,7 @@
 #define AppConstant_h
 
 #define kAMapKey @"df1b9a21d712ee776cadddabe775206c"
+#define kWRatio ((AppDelegate *)[UIApplication sharedApplication].delegate).wRatio
+#define kHRatio ((AppDelegate *)[UIApplication sharedApplication].delegate).hRatio
 
 #endif /* AppConstant_h */

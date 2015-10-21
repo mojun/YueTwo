@@ -12,6 +12,11 @@
 		332DEB8B1BD673E800F25B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332DEB891BD673E800F25B0F /* LaunchScreen.storyboard */; };
 		332DEB961BD673E800F25B0F /* YueTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332DEB951BD673E800F25B0F /* YueTwoTests.m */; };
 		33D0F7851BD6825800BD1746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0F7841BD6825800BD1746 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		33F709ED1BD7081900EC5742 /* YTNavigationBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F709EC1BD7081900EC5742 /* YTNavigationBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		33F709F01BD7082F00EC5742 /* YTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F709EF1BD7082F00EC5742 /* YTBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		33F709F41BD70A1000EC5742 /* MOFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F709F31BD70A1000EC5742 /* MOFileUtils.m */; settings = {ASSET_TAGS = (); }; };
+		33F709FD1BD70FD400EC5742 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F709FB1BD70FD400EC5742 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		33F709FE1BD70FD400EC5742 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F709FC1BD70FD400EC5742 /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		732A20FCB8F4A31EBB9DCBC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF05601B773D1B9C8BC129 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +44,15 @@
 		33D0F7841BD6825800BD1746 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		33D0F7871BD6828700BD1746 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		33D0F7881BD682AF00BD1746 /* yuetwo_prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yuetwo_prefix.pch; sourceTree = "<group>"; };
+		33F709EB1BD7081900EC5742 /* YTNavigationBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNavigationBaseViewController.h; sourceTree = "<group>"; };
+		33F709EC1BD7081900EC5742 /* YTNavigationBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNavigationBaseViewController.m; sourceTree = "<group>"; };
+		33F709EE1BD7082F00EC5742 /* YTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBaseViewController.h; sourceTree = "<group>"; };
+		33F709EF1BD7082F00EC5742 /* YTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBaseViewController.m; sourceTree = "<group>"; };
+		33F709F21BD70A1000EC5742 /* MOFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFileUtils.h; sourceTree = "<group>"; };
+		33F709F31BD70A1000EC5742 /* MOFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFileUtils.m; sourceTree = "<group>"; };
+		33F709FA1BD70FD400EC5742 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		33F709FB1BD70FD400EC5742 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		33F709FC1BD70FD400EC5742 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		647E9E31D83CAF16C2F43692 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C4DF05601B773D1B9C8BC129 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +183,8 @@
 		33D0F77F1BD6821A00BD1746 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				33F709F11BD70A0900EC5742 /* Helpers */,
+				33F709EA1BD7075A00EC5742 /* Base */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -183,6 +199,11 @@
 		33D0F7811BD6821A00BD1746 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				33F709F81BD70EDD00EC5742 /* Main */,
+				33F709F51BD70EDD00EC5742 /* Calls */,
+				33F709F61BD70EDD00EC5742 /* Chat */,
+				33F709F71BD70EDD00EC5742 /* History */,
+				33F709F91BD70EDD00EC5742 /* Share */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -201,6 +222,80 @@
 				33D0F7881BD682AF00BD1746 /* yuetwo_prefix.pch */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		33F709EA1BD7075A00EC5742 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				33F709EB1BD7081900EC5742 /* YTNavigationBaseViewController.h */,
+				33F709EC1BD7081900EC5742 /* YTNavigationBaseViewController.m */,
+				33F709EE1BD7082F00EC5742 /* YTBaseViewController.h */,
+				33F709EF1BD7082F00EC5742 /* YTBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		33F709F11BD70A0900EC5742 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				33F709F21BD70A1000EC5742 /* MOFileUtils.h */,
+				33F709F31BD70A1000EC5742 /* MOFileUtils.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		33F709F51BD70EDD00EC5742 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		33F709F61BD70EDD00EC5742 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		33F709F71BD70EDD00EC5742 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		33F709F81BD70EDD00EC5742 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				33F70A001BD713FB00EC5742 /* bottomBar */,
+				33F709FF1BD713F400EC5742 /* navbar */,
+				33F709FA1BD70FD400EC5742 /* MainViewController.h */,
+				33F709FB1BD70FD400EC5742 /* MainViewController.m */,
+				33F709FC1BD70FD400EC5742 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		33F709F91BD70EDD00EC5742 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		33F709FF1BD713F400EC5742 /* navbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = navbar;
+			sourceTree = "<group>";
+		};
+		33F70A001BD713FB00EC5742 /* bottomBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bottomBar;
 			sourceTree = "<group>";
 		};
 		846896DF6A871D5B7A9C6E71 /* Frameworks */ = {
@@ -295,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				332DEB8B1BD673E800F25B0F /* LaunchScreen.storyboard in Resources */,
+				33F709FE1BD70FD400EC5742 /* MainViewController.xib in Resources */,
 				332DEB881BD673E800F25B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,8 +457,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F709F01BD7082F00EC5742 /* YTBaseViewController.m in Sources */,
+				33F709FD1BD70FD400EC5742 /* MainViewController.m in Sources */,
+				33F709F41BD70A1000EC5742 /* MOFileUtils.m in Sources */,
 				33D0F7851BD6825800BD1746 /* AppDelegate.m in Sources */,
 				332DEB7D1BD673E800F25B0F /* main.m in Sources */,
+				33F709ED1BD7081900EC5742 /* YTNavigationBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

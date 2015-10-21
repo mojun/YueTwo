@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,20 @@
 
 @implementation AppDelegate
 
+AppDelegate *app;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"");
+    app = self;
+    _wRatio = [[UIScreen mainScreen] bounds].size.width / 414;
+    _hRatio = [[UIScreen mainScreen] bounds].size.height / 736;
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+    MainViewController *mainViewController = [MainViewController vcFromXib];
+    YTNavigationBaseViewController *navigationController = [[YTNavigationBaseViewController alloc]initWithRootViewController:mainViewController];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

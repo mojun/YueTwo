@@ -12,6 +12,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, assign) CGFloat wRatio;
+
+@property (nonatomic, assign) CGFloat hRatio;
 
 @end
+
+extern AppDelegate *app;
 
