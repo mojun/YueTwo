@@ -14,6 +14,8 @@
 
 + (instancetype)vcFromXib;
 
+- (void)addChildViewController:(UIViewController *)controller toContainer:(UIView *)container;
+
 @end
 
 @interface YTBaseViewController : UIViewController

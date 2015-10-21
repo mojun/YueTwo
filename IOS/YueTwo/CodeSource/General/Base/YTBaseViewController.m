@@ -59,6 +59,16 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
+- (void)addChildViewController:(UIViewController *)controller toContainer:(UIView *)container{
+    [self addChildViewController:controller];
+    [container addSubview:controller.view];
+    [controller.view mas_makeConstraints:^(MASConstraintMaker *make){
+        make.edges.equalTo(container);
+    }];
+    
+    //    controller.view.frame = container.frame;
+}
+
 - (BOOL)shouldAutorotate{
     return YES;
 }

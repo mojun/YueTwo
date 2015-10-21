@@ -17,6 +17,10 @@
 
 AppDelegate *app;
 
++ (void)initialize{
+    [[MAMapServices sharedServices] setApiKey:kAMapKey];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     app = self;
@@ -26,6 +30,7 @@ AppDelegate *app;
     
     MainViewController *mainViewController = [MainViewController vcFromXib];
     YTNavigationBaseViewController *navigationController = [[YTNavigationBaseViewController alloc]initWithRootViewController:mainViewController];
+    [navigationController setNavigationBarHidden:YES animated:NO];
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     
