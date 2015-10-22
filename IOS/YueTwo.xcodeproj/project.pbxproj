@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332BA8D91BD8F41000BC8391 /* YTBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BA8D81BD8F41000BC8391 /* YTBarButtonView.m */; settings = {ASSET_TAGS = (); }; };
+		332BA8DC1BD8F50B00BC8391 /* YTBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BA8DB1BD8F50B00BC8391 /* YTBadgeLabel.m */; settings = {ASSET_TAGS = (); }; };
+		332BA8E81BD90F7500BC8391 /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 332BA8E51BD90F7500BC8391 /* chat@2x.png */; settings = {ASSET_TAGS = (); }; };
+		332BA8E91BD90F7500BC8391 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 332BA8E61BD90F7500BC8391 /* share@2x.png */; settings = {ASSET_TAGS = (); }; };
+		332BA8EA1BD90F7500BC8391 /* history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 332BA8E71BD90F7500BC8391 /* history@2x.png */; settings = {ASSET_TAGS = (); }; };
+		332BA8EC1BD911B600BC8391 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 332BA8EB1BD911B600BC8391 /* search@2x.png */; settings = {ASSET_TAGS = (); }; };
 		332DEB7D1BD673E800F25B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 332DEB7C1BD673E800F25B0F /* main.m */; };
 		332DEB881BD673E800F25B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332DEB871BD673E800F25B0F /* Assets.xcassets */; };
 		332DEB8B1BD673E800F25B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332DEB891BD673E800F25B0F /* LaunchScreen.storyboard */; };
@@ -40,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332BA8D71BD8F41000BC8391 /* YTBarButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBarButtonView.h; sourceTree = "<group>"; };
+		332BA8D81BD8F41000BC8391 /* YTBarButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBarButtonView.m; sourceTree = "<group>"; };
+		332BA8DA1BD8F50B00BC8391 /* YTBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBadgeLabel.h; sourceTree = "<group>"; };
+		332BA8DB1BD8F50B00BC8391 /* YTBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBadgeLabel.m; sourceTree = "<group>"; };
+		332BA8E51BD90F7500BC8391 /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
+		332BA8E61BD90F7500BC8391 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		332BA8E71BD90F7500BC8391 /* history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history@2x.png"; sourceTree = "<group>"; };
+		332BA8EB1BD911B600BC8391 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		332DEB781BD673E800F25B0F /* YueTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		332DEB7C1BD673E800F25B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		332DEB871BD673E800F25B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +120,19 @@
 				647E9E31D83CAF16C2F43692 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		332BA8D61BD8F33B00BC8391 /* MainCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				33F70A041BD7BB5200EC5742 /* CustomCalloutView.h */,
+				33F70A051BD7BB5200EC5742 /* CustomCalloutView.m */,
+				33F70A071BD7BC8000EC5742 /* CustomAnnotationView.h */,
+				33F70A081BD7BC8000EC5742 /* CustomAnnotationView.m */,
+				33F70A161BD7CACF00EC5742 /* FieldBlockView.h */,
+				33F70A171BD7CACF00EC5742 /* FieldBlockView.m */,
+			);
+			name = MainCustomView;
 			sourceTree = "<group>";
 		};
 		332DEB6F1BD673E800F25B0F = {
@@ -234,6 +261,10 @@
 		33D0F7821BD6821A00BD1746 /* ResourceFile */ = {
 			isa = PBXGroup;
 			children = (
+				332BA8EB1BD911B600BC8391 /* search@2x.png */,
+				332BA8E51BD90F7500BC8391 /* chat@2x.png */,
+				332BA8E61BD90F7500BC8391 /* share@2x.png */,
+				332BA8E71BD90F7500BC8391 /* history@2x.png */,
 				33F70A0A1BD7C05900EC5742 /* nav_icon_column@2x.png */,
 				33F70A021BD7BAAE00EC5742 /* callout.png */,
 			);
@@ -298,12 +329,7 @@
 				33F709FA1BD70FD400EC5742 /* MainViewController.h */,
 				33F709FB1BD70FD400EC5742 /* MainViewController.m */,
 				33F709FC1BD70FD400EC5742 /* MainViewController.xib */,
-				33F70A041BD7BB5200EC5742 /* CustomCalloutView.h */,
-				33F70A051BD7BB5200EC5742 /* CustomCalloutView.m */,
-				33F70A071BD7BC8000EC5742 /* CustomAnnotationView.h */,
-				33F70A081BD7BC8000EC5742 /* CustomAnnotationView.m */,
-				33F70A161BD7CACF00EC5742 /* FieldBlockView.h */,
-				33F70A171BD7CACF00EC5742 /* FieldBlockView.m */,
+				332BA8D61BD8F33B00BC8391 /* MainCustomView */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -331,6 +357,10 @@
 				33F70A111BD7C0D700EC5742 /* BottomBarViewController.h */,
 				33F70A121BD7C0D700EC5742 /* BottomBarViewController.m */,
 				33F70A131BD7C0D700EC5742 /* BottomBarViewController.xib */,
+				332BA8D71BD8F41000BC8391 /* YTBarButtonView.h */,
+				332BA8D81BD8F41000BC8391 /* YTBarButtonView.m */,
+				332BA8DA1BD8F50B00BC8391 /* YTBadgeLabel.h */,
+				332BA8DB1BD8F50B00BC8391 /* YTBadgeLabel.m */,
 			);
 			name = bottomBar;
 			sourceTree = "<group>";
@@ -428,11 +458,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				332DEB8B1BD673E800F25B0F /* LaunchScreen.storyboard in Resources */,
+				332BA8EC1BD911B600BC8391 /* search@2x.png in Resources */,
+				332BA8EA1BD90F7500BC8391 /* history@2x.png in Resources */,
 				33F709FE1BD70FD400EC5742 /* MainViewController.xib in Resources */,
+				332BA8E81BD90F7500BC8391 /* chat@2x.png in Resources */,
 				33F70A101BD7C07E00EC5742 /* NavbarViewController.xib in Resources */,
 				33F70A151BD7C0D700EC5742 /* BottomBarViewController.xib in Resources */,
 				33F70A031BD7BAAF00EC5742 /* callout.png in Resources */,
 				33F70A0B1BD7C05900EC5742 /* nav_icon_column@2x.png in Resources */,
+				332BA8E91BD90F7500BC8391 /* share@2x.png in Resources */,
 				332DEB881BD673E800F25B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +538,8 @@
 				33F70A091BD7BC8000EC5742 /* CustomAnnotationView.m in Sources */,
 				33F709FD1BD70FD400EC5742 /* MainViewController.m in Sources */,
 				33F709F41BD70A1000EC5742 /* MOFileUtils.m in Sources */,
+				332BA8D91BD8F41000BC8391 /* YTBarButtonView.m in Sources */,
+				332BA8DC1BD8F50B00BC8391 /* YTBadgeLabel.m in Sources */,
 				33D0F7851BD6825800BD1746 /* AppDelegate.m in Sources */,
 				332DEB7D1BD673E800F25B0F /* main.m in Sources */,
 				33F70A141BD7C0D700EC5742 /* BottomBarViewController.m in Sources */,

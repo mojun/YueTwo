@@ -42,7 +42,8 @@
     }];
     
     UIButton *searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [searchButton setTitle:@"A" forState:UIControlStateNormal];
+//    [searchButton setTitle:@"A" forState:UIControlStateNormal];
+    [searchButton setImage:[UIImage imageNamed:@"search"] forState:UIControlStateNormal];
     [searchButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self addSubview:searchButton];
     [searchButton mas_makeConstraints:^(MASConstraintMaker *make) {
